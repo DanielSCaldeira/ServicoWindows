@@ -27,3 +27,15 @@
 ## Passo 8
 ![alt text](https://github.com/DanielSCaldeira/ServicoWindows/blob/main/Service/Service/imagen/passo8.png?raw=true)
 
+
+## Instalação do serviço
+
+1. Abra a pasta bin dentro do seu projeto bin/release
+2. Copie os arquivos e adicione em uma nova pasta
+
+
+3. Abra o CMD em modo de administrado
+4. Vá para diretótio C: 
+5. Abra a pasta windows 
+7. cd Windows\Microsoft.NET\Framework64\v4.0.30319
+8. InstallUtil \i "Caminho da pasta\servico.exe"
